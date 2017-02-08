@@ -1,0 +1,23 @@
+{
+  "name": "gittrends.io-notification-toy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "twit": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulo-carvalho/gittrends.io-notification-toy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulo-carvalho/gittrends.io-notification-toy/issues"
+  },
+  "homepage": "https://github.com/paulo-carvalho/gittrends.io-notification-toy#readme"
+}
