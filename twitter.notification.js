@@ -8,7 +8,11 @@ var T = new Twit({
   timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
 })
 
+let repo = "freeCodeCamp"
+let linkRepo = 'http://gittrends.io/#/repos/freeCodeCamp/freeCodeCamp'
+let stargazes = "230,000"
+
 //  tweet 'hello world!'
-T.post('statuses/update', { status: 'Look, freeCodeCamp (http://gittrends.io/#/repos/freeCodeCamp/freeCodeCamp) just achieved 230,000 stars!' }, function(err, data, response) {
+T.post('statuses/update', { status: 'Look, '+ repo +' ('+ linkRepo +') just achieved '+ stargazes +' stars!' }, function(err, data, response) {
   console.log(data)
 })
